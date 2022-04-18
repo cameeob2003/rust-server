@@ -5,6 +5,10 @@ services:
   # the rust server image
   server:
     image: didstopia/rust-server:latest
+    resources:
+      limits: 
+        cpus: 1.5
+        memory: 4096M
     volumes:
       - ./steamcmd/rust:/steamcmd/rust
     environment:
