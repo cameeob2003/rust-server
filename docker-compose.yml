@@ -8,8 +8,8 @@ services:
     deploy: 
       resources:
         limits: 
-          cpus: 1.5
-          memory: 4096M
+          cpus: 2
+          memory: 6M
     volumes:
       - ./steamcmd/rust:/steamcmd/rust
     environment:
