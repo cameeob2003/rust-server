@@ -16,7 +16,7 @@ services:
       # +nav_disable true - to speed up loading of server but disables animal movement and attacking
       RUST_SERVER_STARTUP_ARGUMENTS: '-batchmode -load -nographics +server.secure 1 +server.ip 0.0.0.0'
       RUST_SERVER_IDENTITY: 'lockhinator'
-      RUST_SERVER_PORT: '28015'
+      # RUST_SERVER_PORT: '28015'
       RUST_SERVER_SEED: $SERVER_SEED
       RUST_SERVER_WORLDSIZE: 4500
       RUST_SERVER_NAME: "LOCKHINATOR.COM|US EAST|NEWB FRIENDLY"
